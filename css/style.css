@@ -12,22 +12,24 @@ body {
   height: 100vh;
   font-family: 'Circular Std Medium';
   transition: background-color .5s;
+  cursor: url('http://cur.cursors-4u.net/symbols/sym-1/sym57.cur'), auto;
 }
 
 #plus {
-  left: -100px;
+  left: -70px;
+  top: 35px;
   position: absolute;
-  height: 100px;
+  height: 50px;
   transition: 0.5s ;
 }
 
 #plus:hover {
   cursor: pointer;
+  transform: rotate(90deg)!important;
 }
 
 .sidenav {
   height: 100%;
-  width: 0;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -52,14 +54,6 @@ body {
 .sidenav a:hover {
     filter: blur(1.5rem);
     transition: 1s;
-}
-
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 250px;
-    font-size: 36px;
-    margin-left: 50px;
 }
 
 .hand-logo {
@@ -96,7 +90,7 @@ body {
 
 .email {
   position: absolute;
-  top:90%;
+  top:92%;
   right: 5%;
   height: 50px;
   width: 50px;
@@ -128,4 +122,40 @@ body {
 
 .blur {
   filter: blur(10px);
+  transition: 0.5s ease;
+}
+
+.container {
+  border-top: 1px solid;
+}
+
+.container h1 {
+  font-size: 36px;
+  padding: 0 30px 0 30px;
+}
+
+.container p {
+  font-size: 24px;
+  padding: 0 30px 0 30px;
+  line-height: 40px;
+}
+
+.container li {
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.container ul {
+  padding: 0 30px 0 30px;
+  margin: 40px 40px 40px 40px;
+}
+
+footer {
+  border-top: 1px solid;
+  padding: 5px 10px 5px 10px;
+}
+
+footer a {
+  color: black;
+  float: right;
 }

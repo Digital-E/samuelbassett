@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 100 125" style="enable-background:new 0 0 100 125;" xml:space="preserve">
-<path d="M72,50c0,1.1-0.9,2-2,2H52v18c0,1.1-0.9,2-2,2s-2-0.9-2-2V52H30c-1.1,0-2-0.9-2-2s0.9-2,2-2h18V30c0-1.1,0.9-2,2-2
-	s2,0.9,2,2v18h18C71.1,48,72,48.9,72,50z M88,50c0,21-17,38-38,38S12,71,12,50s17-38,38-38S88,29,88,50z M84,50
-	c0-18.8-15.2-34-34-34S16,31.2,16,50s15.2,34,34,34S84,68.8,84,50z"/>
+	 viewBox="0 0 76 76" style="enable-background:new 0 0 76 76;" xml:space="preserve">
+<path d="M60,38c0,1.1-0.9,2-2,2H40v18c0,1.1-0.9,2-2,2s-2-0.9-2-2V40H18c-1.1,0-2-0.9-2-2s0.9-2,2-2h18V18c0-1.1,0.9-2,2-2
+	s2,0.9,2,2v18h18C59.1,36,60,36.9,60,38z M76,38c0,21-17,38-38,38S0,59,0,38S17,0,38,0S76,17,76,38z M72,38C72,19.2,56.8,4,38,4
+	S4,19.2,4,38s15.2,34,34,34S72,56.8,72,38z"/>
 </svg>

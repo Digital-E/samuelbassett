@@ -3,10 +3,11 @@
 
 <head>
      <meta charset="UTF-8">
-     <title>Samuel Bassett © 2018</title>
+     <title>contact © 2018</title>
      <meta name="Samuel Bassett" content="Samuel Bassett">
     <link rel="stylesheet" href="./css/style.css">
     <script type="text/javascript" src="./script/main.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"></script>
  </head>
 
  <body>
@@ -19,18 +20,37 @@
         <a href="about.html">about</a>
         <a href="contact.html">contact</a>
      </div>
-     <div id="mainBody">
-     <div id="hand" class="hand-logo">
-       <a href="#home">
-       <img src="./images/hand.svg" alt="">
-       </a>
-     </div>
-   <div id="mail" class="email">
-   <a href="mailto:hello@samuelbassett.xyz"><img src="./images/email.svg" alt=""></a>
-   </div>
-       <a href="" id="typewrite" class="typewrite" data-period="2000" data-type='[ "hello,", "Im a web-developer.", "I am creative.", "I love design."]'>
-         
 
+     <div id="mainBody">
+<div id="hand" class="hand-logo">
+  <a href="#home">
+  <img src="./images/hand.svg" alt="">
+  </a>
+</div>
+
+
+     <div class="container">
+       <h1>contact.</h1>
+     </div>
+
+     <div class="container">
+       <p>
+If you think we should work together,  <a href="mailto:contact@samuelbassett.xyz">contact me.</a>
+
+       </p>
+     </div>
+
+     <footer>
+       samuel bassett © 2018
+
+
+       <a href="mailto:hello@samuelbassett.xyz"><i class="far fa-envelope"></i>
+
+</a>
+
+
+     </footer>
+     </div>
          <script>
        function toggleNav() {
          sidenavWidth = document.getElementById("Sidenav").style.width;
@@ -38,13 +58,12 @@
          if (sidenavWidth === "0px" ) {
            document.getElementById("Sidenav").style.width = "400px";
            document.getElementById("plus").style.transform = "rotate(45deg)";
+           // document.getElementById("hand").classList.toggle("blur");
            document.getElementById("mainBody").classList.toggle("blur");
-           document.getElementById("typewrite").classList.toggle("blur");
          } else {
             document.getElementById("Sidenav").style.width = "0px";
             document.getElementById("plus").style.transform = "rotate(0deg)";
-           document.getElementById("mainBody").classList.toggle("blur");
-            document.getElementById("typewrite").classList.toggle("blur");
+                       document.getElementById("mainBody").classList.toggle("blur");
            }
          }
         </script>

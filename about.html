@@ -1,0 +1,101 @@
+ <!DOCTYPE html>
+ <html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <title>about © 2018</title>
+     <meta name="Samuel Bassett" content="Samuel Bassett">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript" src="./script/main.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"></script>
+ </head>
+
+ <body>
+
+   <div id="Sidenav" class="sidenav" style="width:0px;">
+     <!-- <a href="javascript:void(0)" class="closebtn" onclick="openNav()">&times;</a> -->
+        <img id="plus" onclick="toggleNav()" src="./images/plus.svg" alt="">
+        <a href="index.html">home</a>
+        <a href="work.html">work</a>
+        <a href="about.html">about</a>
+        <a href="contact.html">contact</a>
+     </div>
+
+     <div id="mainBody">
+<div id="hand" class="hand-logo">
+  <a href="#home">
+  <img src="./images/hand.svg" alt="">
+  </a>
+</div>
+
+
+     <div class="container">
+       <h1>about me.</h1>
+     </div>
+
+     <div class="container">
+       <p>
+         I'm a web-developer.
+         <br>
+         I'm passionate about design.
+         <br>
+         I'm creative.
+         <br>
+         <br>
+         I speak html5 <i class="fab fa-html5"></i>
+
+, css <i class="fab fa-css3-alt"></i>
+
+, & JavaScript <i class="fab fa-js"></i>
+
+.
+         <br>
+         <br>
+         I'm currently learning React <i class="fab fa-react"></i>
+
+.
+<br>
+<br>
+I started coding in 2017, and have been a self-taught web-developer ever since.
+<br>
+<br>
+If you're interested in seeing what I can do, check out my projects in the <a href="work.html">work</a> section, or on my <a href="https://github.com/Digital-E" target="_blank">GitHub</a> <i class="fab fa-github"></i>
+
+ profile.
+<br>
+<br>
+If you think we should work together,  <a href="mailto:contact@samuelbassett.xyz">contact me.</a>
+
+       </p>
+     </div>
+
+     <footer>
+       samuel bassett © 2018
+
+
+       <a href="mailto:hello@samuelbassett.xyz"><i class="far fa-envelope"></i>
+
+</a>
+
+
+     </footer>
+     </div>
+         <script>
+       function toggleNav() {
+         sidenavWidth = document.getElementById("Sidenav").style.width;
+         console.log(sidenavWidth);
+         if (sidenavWidth === "0px" ) {
+           document.getElementById("Sidenav").style.width = "400px";
+           document.getElementById("plus").style.transform = "rotate(45deg)";
+           // document.getElementById("hand").classList.toggle("blur");
+           document.getElementById("mainBody").classList.toggle("blur");
+         } else {
+            document.getElementById("Sidenav").style.width = "0px";
+            document.getElementById("plus").style.transform = "rotate(0deg)";
+                       document.getElementById("mainBody").classList.toggle("blur");
+           }
+         }
+        </script>
+ </body>
+
+ </html>
