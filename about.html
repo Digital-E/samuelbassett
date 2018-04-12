@@ -81,22 +81,23 @@ If you think we should work together,  <a href="mailto:contact@samuelbassett.xyz
 
      </footer>
      </div>
-         <script>
-       function toggleNav() {
-         sidenavWidth = document.getElementById("Sidenav").style.width;
-         console.log(sidenavWidth);
-         if (sidenavWidth === "0px" ) {
-           document.getElementById("Sidenav").style.width = "400px";
-           document.getElementById("plus").style.transform = "rotate(45deg)";
-           // document.getElementById("hand").classList.toggle("blur");
-           document.getElementById("mainBody").classList.toggle("blur");
-         } else {
-            document.getElementById("Sidenav").style.width = "0px";
-            document.getElementById("plus").style.transform = "rotate(0deg)";
-                       document.getElementById("mainBody").classList.toggle("blur");
-           }
-         }
-        </script>
+     <script>
+   function toggleNav() {
+     sidenavWidth = document.getElementById("Sidenav").style.width;
+     console.log(sidenavWidth);
+     if (sidenavWidth === "0px" ) {
+       document.getElementById("Sidenav").style.width = "300px";
+       document.getElementById("plus").style.transform = "rotate(45deg)";
+       document.getElementById("mainBody").classList.toggle("blur");
+       document.getElementById("typewrite").classList.toggle("blur");
+     } else {
+        document.getElementById("Sidenav").style.width = "0px";
+        document.getElementById("plus").style.transform = "rotate(0deg)";
+       document.getElementById("mainBody").classList.toggle("blur");
+        document.getElementById("typewrite").classList.toggle("blur");
+       }
+     }
+    </script>
  </body>
 
  </html>
