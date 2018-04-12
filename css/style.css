@@ -159,3 +159,10 @@ footer a {
   color: black;
   float: right;
 }
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 375px) {
+  .typewrite {
+    font-size: 2em;
+  }
+}
